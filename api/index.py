@@ -30,6 +30,3 @@ def calculate():
         resultado = f'Sendo a variação igual a {Valor_modular:.2f}, a elasticidade do preço da demanda é UNITÁRIA'
 
     return render_template('calculator/index.html', resultado=resultado)
-
-if __name__ == '__main__':
-    app.run(debug=True)
